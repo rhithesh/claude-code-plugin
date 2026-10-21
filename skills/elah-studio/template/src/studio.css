@@ -1,0 +1,73 @@
+html, body, #root { height: 100%; margin: 0; }
+body { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; }
+
+.studio {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: var(--elah-bg);
+  color: var(--elah-text);
+}
+
+.studio-message { padding: 24px; font-family: system-ui, sans-serif; }
+
+.studio-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--elah-border);
+  background: var(--elah-bg-secondary);
+  flex-wrap: wrap;
+}
+.studio-file { color: var(--elah-text-secondary); font-family: ui-monospace, monospace; }
+.studio-spacer { flex: 1; }
+.studio-group { display: flex; align-items: center; gap: 6px; }
+.studio-timecode { font-family: ui-monospace, monospace; font-size: 12px; }
+
+.studio-status { font-size: 12px; color: var(--elah-text-muted); }
+.studio-status--synced { color: var(--elah-text-secondary); }
+.studio-status--warn { color: var(--elah-accent-text); }
+.studio-status--error { color: #f87171; }
+
+.studio button {
+  background: var(--elah-bg-card);
+  color: var(--elah-text);
+  border: 1px solid var(--elah-border);
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font: inherit;
+}
+.studio button:disabled { opacity: 0.4; cursor: default; }
+.studio button[aria-pressed='true'] { border-color: var(--elah-accent); }
+.studio .studio-primary { background: var(--elah-accent); border-color: var(--elah-accent); color: var(--elah-accent-text); }
+.studio .studio-danger { margin-top: 8px; }
+
+.studio-main { flex: 1; display: flex; min-height: 0; }
+
+.studio-inspector {
+  width: 260px;
+  flex-shrink: 0;
+  overflow-y: auto;
+  padding: 12px;
+  border-left: 1px solid var(--elah-border);
+  background: var(--elah-bg-panel);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.studio-inspector h3 { margin: 0; font-size: 14px; overflow-wrap: anywhere; }
+.studio-inspector label { display: flex; flex-direction: column; gap: 4px; }
+.studio-inspector textarea {
+  background: var(--elah-bg-card);
+  color: var(--elah-text);
+  border: 1px solid var(--elah-border);
+  border-radius: 6px;
+  padding: 6px;
+  font: inherit;
+  resize: vertical;
+}
+.studio-hint { margin: 0; color: var(--elah-text-muted); }
+.studio-row { display: flex; flex-direction: row !important; align-items: center; gap: 6px; }
+.studio-between { justify-content: space-between; }

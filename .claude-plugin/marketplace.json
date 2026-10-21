@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
+  "name": "elah",
+  "owner": {
+    "name": "Elah",
+    "url": "https://www.elah.dev"
+  },
+  "description": "Plugins for making and editing videos with Elah",
+  "plugins": [
+    {
+      "name": "elah",
+      "displayName": "Elah",
+      "source": "./",
+      "description": "Make and edit videos with Elah, with a live drag-and-drop editor synced to the project file",
+      "homepage": "https://www.elah.dev",
+      "repository": "https://github.com/elahlabs/claude-code-plugin",
+      "license": "Apache-2.0",
+      "keywords": ["elah", "video", "video-editor", "timeline"],
+      "category": "Design",
+      "tags": ["video", "video-editing", "react"]
+    }
+  ]
+}
