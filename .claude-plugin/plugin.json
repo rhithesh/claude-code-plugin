@@ -9,7 +9,7 @@
     "url": "https://www.elah.dev"
   },
   "homepage": "https://www.elah.dev",
-  "repository": "https://github.com/elahlabs/claude-code-plugin",
+  "repository": "https://github.com/rhithesh/claude-code-plugin",
   "license": "Apache-2.0",
   "keywords": ["elah", "video", "video-editor", "timeline", "webcodecs", "mp4", "export", "react"]
 }

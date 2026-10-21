@@ -13,7 +13,7 @@
       "source": "./",
       "description": "Make and edit videos with Elah, with a live drag-and-drop editor synced to the project file",
       "homepage": "https://www.elah.dev",
-      "repository": "https://github.com/elahlabs/claude-code-plugin",
+      "repository": "https://github.com/rhithesh/claude-code-plugin",
       "license": "Apache-2.0",
       "keywords": ["elah", "video", "video-editor", "timeline"],
       "category": "Design",

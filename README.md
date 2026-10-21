@@ -6,7 +6,7 @@ drag-and-drop editor that stays in sync with the project file Claude is editing.
 ## Install
 
 ```
-/plugin marketplace add elahlabs/claude-code-plugin
+/plugin marketplace add rhithesh/claude-code-plugin
 /plugin install elah@elah
 ```
 
